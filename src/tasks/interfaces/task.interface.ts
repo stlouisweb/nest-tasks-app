@@ -1,5 +1,5 @@
 export class Task {
-  tite: String;
+  title: String;
   description: String;
   order: Number;
   complete: Boolean;

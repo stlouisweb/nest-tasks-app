@@ -1,12 +1,12 @@
 export class CreateTaskDto {
-  readonly tite: String;
+  readonly title: String;
   readonly description: String;
   readonly order: Number;
   readonly complete: Boolean;
 }
 
 export class UpdateTaskDto {
-  tite: String;
+  title: String;
   description: String;
   order: Number;
   complete: Boolean;
